@@ -1,7 +1,7 @@
 //
 //  SudokuSolver.swift
 //  SudokuApp
-//  algorithm source: https://habr.com/ru/post/192102/
+//  algorithm source: https://habr.com/ru/post/192102/, https://grandgames.net/info/sudoku_alex
 //  Created by Olga on 11.03.2023.
 //
 

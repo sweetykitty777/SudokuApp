@@ -159,7 +159,7 @@ class SudokuGenerator {
         } else if (level == "3") {
             num = 28
         }
-        return (solver.getSudokuMatrix(num), solver.myMatrix)
+        return (solver.getSudokuMatrix(num), solver.getMatrix())
         
     }
 }

@@ -176,7 +176,7 @@ class SudokuSolver {
         return myMatrix
     }
     
-    private func countSolutions(number: inout Int) {
+    public func countSolutions(number: inout Int) {
         var x = 0, y = 0
         if (!emptyCellCheck(row: &x, col: &y)) {
             number += 1

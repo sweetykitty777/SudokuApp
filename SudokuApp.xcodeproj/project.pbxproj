@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7717BBA02A0A5E150020C16B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717BB9F2A0A5E150020C16B /* MenuViewController.swift */; };
+		7717BBA22A0A62EE0020C16B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717BBA12A0A62EE0020C16B /* GameViewController.swift */; };
+		7717BBA42A0A82DF0020C16B /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717BBA32A0A82DF0020C16B /* GridView.swift */; };
+		7717BBA62A0A91450020C16B /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717BBA52A0A91450020C16B /* KeyboardView.swift */; };
+		7717BBA82A0AC6760020C16B /* GameMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717BBA72A0AC6760020C16B /* GameMenuView.swift */; };
+		7717BBAA2A0ACE620020C16B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717BBA92A0ACE620020C16B /* MenuView.swift */; };
+		7717BBAC2A0AD2DD0020C16B /* ConstructorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7717BBAB2A0AD2DD0020C16B /* ConstructorViewController.swift */; };
 		773353A329FFBA3A0030AF83 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773353A229FFBA3A0030AF83 /* Vision.framework */; };
 		773353A52A05034E0030AF83 /* UIViewPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773353A42A05034E0030AF83 /* UIViewPin.swift */; };
 		773353A72A0505F70030AF83 /* Content.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773353A62A0505F70030AF83 /* Content.xcassets */; };
@@ -21,6 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7717BB9F2A0A5E150020C16B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		7717BBA12A0A62EE0020C16B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7717BBA32A0A82DF0020C16B /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		7717BBA52A0A91450020C16B /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		7717BBA72A0AC6760020C16B /* GameMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenuView.swift; sourceTree = "<group>"; };
+		7717BBA92A0ACE620020C16B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		7717BBAB2A0AD2DD0020C16B /* ConstructorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructorViewController.swift; sourceTree = "<group>"; };
 		773353A229FFBA3A0030AF83 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 		773353A42A05034E0030AF83 /* UIViewPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPin.swift; sourceTree = "<group>"; };
 		773353A62A0505F70030AF83 /* Content.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Content.xcassets; sourceTree = "<group>"; };
@@ -48,6 +62,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7717BB9C2A0A5B380020C16B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				776F1BB729BCFEA2005F752A /* SudokuSolver.swift */,
+				776F1BB529BCF893005F752A /* SudokuGenerator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7717BB9D2A0A5B680020C16B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7717BBA32A0A82DF0020C16B /* GridView.swift */,
+				7717BBA52A0A91450020C16B /* KeyboardView.swift */,
+				7717BBA72A0AC6760020C16B /* GameMenuView.swift */,
+				7717BBA92A0ACE620020C16B /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7717BB9E2A0A5B760020C16B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7717BB9F2A0A5E150020C16B /* MenuViewController.swift */,
+				7717BBA12A0A62EE0020C16B /* GameViewController.swift */,
+				7717BBAB2A0AD2DD0020C16B /* ConstructorViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7717BBAD2A0AD37F0020C16B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				773353A42A05034E0030AF83 /* UIViewPin.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		773353A129FFBA3A0030AF83 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,12 +129,13 @@
 		778E465729B8F0470083C588 /* SudokuApp */ = {
 			isa = PBXGroup;
 			children = (
-				773353A42A05034E0030AF83 /* UIViewPin.swift */,
+				7717BBAD2A0AD37F0020C16B /* Extensions */,
+				7717BB9E2A0A5B760020C16B /* Controllers */,
+				7717BB9D2A0A5B680020C16B /* Views */,
+				7717BB9C2A0A5B380020C16B /* Models */,
 				778E465829B8F0470083C588 /* AppDelegate.swift */,
 				778E465A29B8F0470083C588 /* SceneDelegate.swift */,
 				778E465C29B8F0470083C588 /* ViewController.swift */,
-				776F1BB529BCF893005F752A /* SudokuGenerator.swift */,
-				776F1BB729BCFEA2005F752A /* SudokuSolver.swift */,
 				778E465E29B8F0470083C588 /* Main.storyboard */,
 				778E466129B8F0480083C588 /* Assets.xcassets */,
 				778E466329B8F0480083C588 /* LaunchScreen.storyboard */,
@@ -167,10 +220,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				773353A52A05034E0030AF83 /* UIViewPin.swift in Sources */,
+				7717BBAA2A0ACE620020C16B /* MenuView.swift in Sources */,
 				776F1BB629BCF893005F752A /* SudokuGenerator.swift in Sources */,
 				778E465D29B8F0470083C588 /* ViewController.swift in Sources */,
+				7717BBA62A0A91450020C16B /* KeyboardView.swift in Sources */,
+				7717BBA02A0A5E150020C16B /* MenuViewController.swift in Sources */,
+				7717BBA22A0A62EE0020C16B /* GameViewController.swift in Sources */,
+				7717BBAC2A0AD2DD0020C16B /* ConstructorViewController.swift in Sources */,
 				778E465929B8F0470083C588 /* AppDelegate.swift in Sources */,
+				7717BBA82A0AC6760020C16B /* GameMenuView.swift in Sources */,
 				778E465B29B8F0470083C588 /* SceneDelegate.swift in Sources */,
+				7717BBA42A0A82DF0020C16B /* GridView.swift in Sources */,
 				776F1BB829BCFEA2005F752A /* SudokuSolver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
